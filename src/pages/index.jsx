@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout/layout"
-
+import Intro from "../components/Intro/intro"
+import "normalize.css"
 
 const IndexPage = () => (
   <Layout>
-    <h1>CONTENT</h1>
+    <Intro />
   </Layout>
 )
 

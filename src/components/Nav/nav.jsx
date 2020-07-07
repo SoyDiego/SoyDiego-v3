@@ -1,26 +1,26 @@
 import React from "react"
-import { Navbar, Brand, Menu, NavLink } from "./styles"
+import { Navbar, NavBrand, Menu, NavLink } from "./styles"
 
 const Nav = () => {
   return (
     <Navbar>
-      <Brand>Diego Franchina</Brand>
+      <NavBrand to="/">Diego Franchina</NavBrand>
       <Menu>
         <ul>
           <li>
-            <NavLink to="/estudios">Estudios</NavLink>
+            <NavLink activeClassName="active" to="/estudios">Estudios</NavLink>
           </li>
           <li>
-            <NavLink to="/experiencia">Experiencia</NavLink>
+            <NavLink activeClassName="active" to="/experiencia">Experiencia</NavLink>
           </li>
           <li>
-            <NavLink to="/skills">Skills</NavLink>
+            <NavLink activeClassName="active" to="/skills">Skills</NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink activeClassName="active" to="/portfolio">Portfolio</NavLink>
           </li>
           <li>
-            <NavLink to="/contacto">Contacto</NavLink>
+            <NavLink activeClassName="active" to="/contacto">Contacto</NavLink>
           </li>
         </ul>
       </Menu>
