@@ -2,11 +2,11 @@ import React from "react"
 import Image from "gatsby-image"
 import { Container, Info} from "./styles"
 
-const EstudiosContent = () => (
+const SkillsContent = () => (
   <Container>
     <Info>
       <h1>
-        Estudios acá
+        Skills acá
       </h1>
       <h2>
         lalalala
@@ -15,4 +15,4 @@ const EstudiosContent = () => (
   </Container>
 )
 
-export default EstudiosContent
+export default SkillsContent
