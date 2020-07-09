@@ -3,32 +3,33 @@ import { Link } from "gatsby"
 
 export const Navbar = styled.nav`
   display: flex;
-  padding: 1rem;
-  color: #ffffff;
+  justify-content: center;
   width: 100%;
   position: fixed;
+  margin-top: 0.3rem;
 `
 
 export const NavBrand = styled(Link)`
-  font-size: 2rem;
+  font-size: 3rem;
   align-self: center;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: var(--pink);
+  font-weight: bold;
 `
 
 export const Menu = styled.div`
-  text-align: right;
-  width: 75%;
+  width: 100%;
 
   ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     list-style: none;
+    padding-left: 0;
   }
 
   li {
-    padding: 0 1rem;
+    padding: 0 2rem;
     font-size: 1rem;
     text-transform: uppercase;
     align-self: center;

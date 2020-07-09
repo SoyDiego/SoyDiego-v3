@@ -4,23 +4,40 @@ import { Navbar, NavBrand, Menu, NavLink } from "./styles"
 const Nav = () => {
   return (
     <Navbar>
-      <NavBrand to="/">Diego Franchina</NavBrand>
       <Menu>
         <ul>
           <li>
-            <NavLink activeClassName="active" to="/estudios">Estudios</NavLink>
+            <NavLink activeClassName="active" to="/estudios">
+              Estudios
+            </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/experiencia">Experiencia</NavLink>
+            <NavLink activeClassName="active" to="/experiencia">
+              Experiencia
+            </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/skills">Skills</NavLink>
+            <NavLink activeClassName="active" to="/skills">
+              Skills
+            </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/portfolio">Portfolio</NavLink>
+            <NavBrand to="/">D F</NavBrand>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/contacto">Contacto</NavLink>
+            <NavLink activeClassName="active" to="/portfolio">
+              Portfolio
+            </NavLink>
+          </li>
+          <li>
+            <NavLink activeClassName="active" to="/referencias">
+              Referencias
+            </NavLink>
+          </li>
+          <li>
+            <NavLink activeClassName="active" to="/contacto">
+              Contacto
+            </NavLink>
           </li>
         </ul>
       </Menu>
