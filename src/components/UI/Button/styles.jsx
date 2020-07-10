@@ -1,4 +1,5 @@
 import styled from "@emotion/styled"
+import { Link } from "gatsby"
 
 export const Container = styled.div`
   width: 100%;
@@ -6,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
 `
 
-export const Btn = styled.button`
+export const Btn = styled.a`
   background-color: var(--pink);
   color: var(--white);
   margin-top: 2rem;
@@ -15,4 +16,7 @@ export const Btn = styled.button`
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
 `
