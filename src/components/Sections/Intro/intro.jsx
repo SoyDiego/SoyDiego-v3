@@ -3,6 +3,7 @@ import Image from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
 import { Container, Info, Picture } from "./styles"
 import { css } from "@emotion/core"
+import ButtonsRRSS from "../../UI/ButtonsRRSS"
 
 const Intro = () => {
   const pageQuery = useStaticQuery(graphql`
@@ -24,9 +25,9 @@ const Intro = () => {
           Diego J. <span>Franchina</span>
         </h1>
         <h2>
-          Frontend <span>Developer</span>
+          Front-end <span>Developer</span>
         </h2>
-        <i class="bx bx-hot"></i>
+        <ButtonsRRSS />
       </Info>
       <Picture>
         <Image

@@ -1,0 +1,18 @@
+{
+  "title": "Social Networks",
+  "type": "logo",
+  "content": [
+    {
+      "network": "LinkedIn",
+      "icon": "linkedin-square",
+      "color": "#ffffff",
+      "url": "https://www.linkedin.com/in/SoyDiegoF"
+    },
+    {
+      "network": "GitHub",
+      "icon": "github",
+      "color": "#ffffff",
+      "url": "https://www.github.com/soydiego"
+    }
+  ]
+}
