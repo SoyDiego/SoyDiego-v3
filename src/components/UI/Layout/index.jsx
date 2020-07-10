@@ -1,5 +1,5 @@
 import React from "react"
-import Nav from "../Nav/nav"
+import Nav from "../Nav"
 import "normalize.css"
 import { Helmet } from "react-helmet"
 import GlobalStyles from "./styles"
