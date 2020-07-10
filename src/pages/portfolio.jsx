@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import PortfolioContent from "../components/Portfolio"
+import Layout from "../components/UI/Layout/layout"
+import PortfolioContent from "../components/Sections/Portfolio"
 import "normalize.css"
 
 const Portfolio = () => (

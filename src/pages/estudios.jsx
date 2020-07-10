@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import EstudiosContent from "../components/Estudios"
+import Layout from "../components/UI/Layout/layout"
+import EstudiosContent from "../components/Sections/Estudios"
 import "normalize.css"
 
 const Estudios = () => (

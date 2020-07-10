@@ -1,5 +1,4 @@
 import styled from "@emotion/styled"
-import { Link } from "gatsby"
 
 export const Container = styled.div`
   display: flex;
@@ -29,4 +28,5 @@ export const Info = styled.div`
 `
 export const Picture = styled.div`
   width: 50%;
+  text-align: center;
 `

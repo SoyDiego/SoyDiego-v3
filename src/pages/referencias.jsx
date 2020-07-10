@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import ReferenciasContent from "../components/Referencias"
+import Layout from "../components/UI/Layout/layout"
+import ReferenciasContent from "../components/Sections/Referencias"
 import "normalize.css"
 
 const Referencias = () => (

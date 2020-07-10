@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import SkillsContent from "../components/Skills"
+import Layout from "../components/UI/Layout/layout"
+import SkillsContent from "../components/Sections/Skills"
 import "normalize.css"
 
 const Skills = () => (

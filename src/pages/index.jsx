@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout/layout"
-import Intro from "../components/Intro/intro"
+import Layout from "../components/UI/Layout/layout"
+import Intro from "../components/Sections/Intro/intro"
 import "normalize.css"
 
 const IndexPage = () => (
