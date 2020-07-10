@@ -4,12 +4,13 @@ import { graphql, useStaticQuery } from "gatsby"
 import { Container, Info, Picture } from "./styles"
 import { css } from "@emotion/core"
 import ButtonsRRSS from "../../UI/ButtonsRRSS"
+import Button from "../../UI/Button"
 
 const Intro = () => {
-  const pageQuery = useStaticQuery(graphql`
+  const {image} = useStaticQuery(graphql`
     query {
-      imageOne: file(relativePath: { eq: "me.jpg" }) {
-        childImageSharp {
+      image: file(relativePath: { eq: "me.jpg" }) {
+        sharp: childImageSharp {
           fixed(width: 250, height: 200) {
             ...GatsbyImageSharpFixed
           }
@@ -28,13 +29,14 @@ const Intro = () => {
           Front-end <span>Developer</span>
         </h2>
         <ButtonsRRSS />
+        <Button />
       </Info>
       <Picture>
         <Image
           css={css`
             border-radius: 20%;
           `}
-          fixed={pageQuery.imageOne.childImageSharp.fixed}
+          fixed={image.sharp.fixed}
         />
       </Picture>
     </Container>

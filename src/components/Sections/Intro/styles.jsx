@@ -28,5 +28,8 @@ export const Info = styled.div`
 `
 export const Picture = styled.div`
   width: 50%;
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `

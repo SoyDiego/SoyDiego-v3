@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/UI/Layout/layout"
+import Layout from "../components/UI/Layout"
 import PortfolioContent from "../components/Sections/Portfolio"
 import "normalize.css"
 
