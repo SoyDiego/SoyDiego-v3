@@ -1,5 +1,4 @@
 import React from "react"
-import Image from "gatsby-image"
 import { Container, Info} from "./styles"
 
 const ContactoContent = () => (
