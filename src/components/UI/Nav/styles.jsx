@@ -2,12 +2,13 @@ import styled from "@emotion/styled"
 import { Link } from "gatsby"
 
 export const Navbar = styled.nav`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: fixed;
-  margin-top: 0.3rem;
-`
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         position: fixed;
+         z-index: 9999;
+         background-color: var(--blue);
+       `
 
 export const NavBrand = styled(Link)`
   font-size: 3rem;
