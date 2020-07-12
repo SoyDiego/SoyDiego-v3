@@ -1,5 +1,5 @@
 import React from "react"
-import socials from "./socials.json"
+import socials from "../../../content/socials.json"
 import { Container, LinkSkill,  } from "./styles"
 import "boxicons"
 

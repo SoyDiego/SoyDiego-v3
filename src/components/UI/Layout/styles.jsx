@@ -11,10 +11,8 @@ const GlobalStyles = () => {
           --white: #ffffff;
           --black: #000000;
         }
-
         body {
           font-family: "PT Sans", sans-serif;
-          height: 100vh;
           background-color: var(--blue);
         }
 

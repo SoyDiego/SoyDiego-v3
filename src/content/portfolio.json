@@ -1,0 +1,45 @@
+{
+  "title": "Portfolio",
+  "content": [
+    {
+      "project": "COVID-19 Stats",
+      "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "BOOTSTRAP"],
+      "description": "Estadísticas del Covid-19 en Argentina y España. Se actualiza automáticamente tomando los datos de una API."
+    },
+    {
+      "project": "FLYER S.A.D 2020",
+      "technologies": ["ILLUSTRATOR", "PHOTOSHOP"],
+      "description": "Creación de flyer para el Evento de Salvamento Acuático Deportivo."
+    },
+    {
+      "project": "INDIOQUIMICA S.A",
+      "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "WORDPRESS"],
+      "description": "Diseño web, administración de contenido, mantenimiento y Seguridad. Edición de imagenes de la empresa. Google Analytics. Corrección de fallas de seguridad."
+    },
+    {
+      "project": "DR. REPRESENTACIONES",
+      "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "WORDPRESS"],
+      "description": "Diseño Web, administración de contenido, actualizaciones y mantenimiento. Corrección de fallas de seguridad en el sitio."
+    },
+    {
+      "project": "MAGAZINE SB 2019",
+      "technologies": ["QUARKXPRESS", "ILLUSTRATOR", "JAVASCRIPT"],
+      "description": "Diseño de Revista Impresa y Digital con el software QuarkXpress. Creación de contenido, edición de fotografías."
+    },
+    {
+      "project": "TRABAJO SOCORRISTA ESPAÑA",
+      "technologies": ["HTML5", "CSS3", "JAVASCRIPT", "WORDPRESS"],
+      "description": "Diseño Web, administración de contenido, actualizaciones y mantenimiento. Redacción de artículos para personas que viajan por primera vez a España como socorristas."
+    },
+    {
+      "project": "PREVENIR",
+      "technologies": ["ILLUSTRATOR", "PHOTOSHOP"],
+      "description": "Diseño y creación de logotipo para el Programa Formativo."
+    },
+    {
+      "project": "ADR SISTEMAS",
+      "technologies": ["ILLUSTRATOR", "PHOTOSHOP"],
+      "description": "Diseño y creación de logotipo para la empresa."
+    }
+  ]
+}
