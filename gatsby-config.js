@@ -5,6 +5,13 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/content/`,
+      },
+    },
     "gatsby-plugin-emotion",
     `gatsby-plugin-react-helmet`,
     {

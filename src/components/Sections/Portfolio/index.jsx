@@ -1,18 +1,48 @@
 import React from "react"
-import portfolio from "../../../content/portfolio.json"
+import Image from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { Container, Info, ItemPortfolio } from "./styles"
+import { css } from "@emotion/core"
 
 const PortfolioContent = () => {
-  const { content } = portfolio
+  const query = useStaticQuery(graphql`
+    {
+      allContentJson(filter: { title: { eq: "Portfolio" } }) {
+        nodes {
+          content {
+            project
+            description
+            technologies
+            picture {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  const { content } = query.allContentJson.nodes[0]
   return (
     <Container>
       <Info>
         {content.map(work => (
-          <ItemPortfolio>
+          <ItemPortfolio key={work}>
             <h2>{work.project}</h2>
             {work.technologies.map(technologie => (
-              <span>{technologie}</span>
+              <span key={technologie}>{technologie}</span>
             ))}
+            <Image
+              css={css`
+                margin-top: 2rem;
+              `}
+              fluid={work.picture.childImageSharp.fluid}
+              alt={work.project}
+            />
             <p>{work.description}</p>
           </ItemPortfolio>
         ))}

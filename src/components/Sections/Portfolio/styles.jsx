@@ -18,11 +18,10 @@ export const ItemPortfolio = styled.div`
   width: 30%;
   margin: 0 1rem 1rem 1rem;
   color: var(--blue);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
   border-radius: 10px;
   border: 3px solid var(--pink);
-  text-align: middle;
 
   span {
     padding: 0.5rem;
