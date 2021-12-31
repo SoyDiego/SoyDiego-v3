@@ -1,0 +1,22 @@
+{
+	"name": "Diego J.",
+	"surname": "Franchina",
+	"profession": "Web Developer",
+    "location": "Barcelona, España",
+	"mobile": "+34 644 464 398",
+	"urlCV": "https://soydiego.com.ar/CV%20-%20Diego%20Franchina%20[ES].pdf",
+	"social": [
+		{
+			"name": "Instagram",
+			"user": "SoyDieg0"
+		},
+		{
+			"name": "LinkedIn",
+			"user": "SoyDiegoF"
+		},
+		{
+			"name": "GitHub",
+			"user": "SoyDiego"
+		}
+	]
+}
