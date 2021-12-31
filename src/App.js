@@ -1,3 +1,4 @@
+import Education from "./components/Education";
 import Header from "./components/Header";
 
 function App() {
@@ -6,9 +7,9 @@ function App() {
 			<div className="">
 				<Header />
 			</div>
-			<div className="cat-education tw-py-5">
-        EDUCACION
-      </div>
+			<div className="cat-education">
+				<Education />
+			</div>
 		</>
 	);
 }
