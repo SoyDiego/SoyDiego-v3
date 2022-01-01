@@ -9,7 +9,7 @@ const RevealCore = ({ children, className }) => {
 		ref,
 		className: `${child.props?.className ?? ""} ${
 			inView
-				? `${className} tw-animate-distance-[200px] tw-animate-duration-[1200ms]`
+				? `${className} tw-animate-distance-[50px] tw-animate-duration-[2000ms]`
 				: "!opacity-0"
 		}`,
 	});

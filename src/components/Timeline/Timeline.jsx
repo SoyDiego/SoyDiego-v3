@@ -7,7 +7,12 @@ import RightBoxExperience from "./RightBoxExperience";
 const Timeline = () => {
 	return (
 		<div className="tw-w-full tw-bg-slate-900">
-			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8 tw-pb-0 tw-text-blue-50">
+			<div className="tw-text-center tw-py-8">
+				<h2 className="tw-text-white tw-font-extrabold md:tw-text-4xl">
+					El camino realizado...
+				</h2>
+			</div>
+			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8 tw-pb-0 tw-text-blue-50 tw-overflow-hidden">
 				{allContent &&
 					allContent.experience.map(
 						(
@@ -44,7 +49,7 @@ const Timeline = () => {
 					)}
 			</div>
 
-			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8  tw-pb-0 tw-text-blue-50">
+			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8  tw-pb-0 tw-text-blue-50 tw-overflow-hidden">
 				{allContent &&
 					allContent.education.map(
 						(
