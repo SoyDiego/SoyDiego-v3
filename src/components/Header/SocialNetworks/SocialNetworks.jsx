@@ -1,6 +1,6 @@
-import IcGitHub from "../Icons/IcGitHub";
-import IcInstagram from "../Icons/IcInstagram";
-import IcLinkedIn from "../Icons/IcLinkedIn";
+import IcGitHub from "../../Icons/IcGitHub";
+import IcInstagram from "../../Icons/IcInstagram";
+import IcLinkedIn from "../../Icons/IcLinkedIn";
 
 const SocialNetworks = ({ social }) => {
 	return (
