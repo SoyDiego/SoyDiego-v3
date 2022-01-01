@@ -2,8 +2,8 @@
 	"name": "Diego J.",
 	"surname": "Franchina",
 	"profession": "Web Developer",
-    "location": "Barcelona, España",
-	"mobile": "+34 644 464 398",
+	"location": "Barcelona, España",
+	"mobile": "(+34) 644 464 398",
 	"urlCV": "https://soydiego.com.ar/CV%20-%20Diego%20Franchina%20[ES].pdf",
 	"social": [
 		{
@@ -17,6 +17,84 @@
 		{
 			"name": "GitHub",
 			"user": "SoyDiego"
+		}
+	],
+	"experience": [
+		{
+			"date": "Abril '20 - Noviembre '21",
+			"country": "España",
+			"company": "Turijobs",
+			"position": "Front-end Developer",
+			"tasks": {
+				"one": "Desarrollo Web, actualización de contenidos.",
+				"two": "Optimización, SEO."
+			},
+			"technologies": "HTML5, CSS3, Sass, Javascript, JQuery, Bootstrap, SQL."
+		},
+		{
+			"date": "Septiembre '20 - Abril '21",
+			"country": "España",
+			"company": "Labelgroup Networks",
+			"position": "Front-end Developer",
+			"tasks": {
+				"one": "Desarrollo de ERP para el sector farmaceutico.",
+				"two": "Desarrollo Web."
+			},
+			"technologies": "HTML5, CSS3, Sass, React JS, Redux, GraphQL, Style Components, Storybook, TailwindCSS, Bootstrap."
+		},
+		{
+			"date": "Julio '19 - Diciembre '19",
+			"country": "España",
+			"company": "CDM Barcelona",
+			"position": "Front-end Developer",
+			"tasks": {
+				"one": "Maquetación de newsletters responsive.",
+				"two": "Maquetación de material comercial para el sector salud y principales proveedores CLM (Closed Loop Marketing).",
+				"three": "Desarrollo Web, actualización de contenidos."
+			},
+			"technologies": "HTML5, CSS3, Javascript, MJML Framework, Wordpress, Bootstrap."
+		},
+		{
+			"date": "Mayo '19 - Julio '19",
+			"country": "España",
+			"company": "USACD",
+			"position": "Front-end Developer",
+			"tasks": {
+				"one": "Maquetación de newsletters responsive.",
+				"two": "Desarrollo Web, actualización de contenidos."
+			},
+			"technologies": "HTML5, CSS3, Javascript, MJML Framework."
+		},
+		{
+			"date": "Marzo '16 - Diciembre '16",
+			"country": "España",
+			"company": "Everis",
+			"position": "Front-end Developer",
+			"tasks": {
+				"one": "Se implementaban servicios y se creaba la interfaz gráfica para el sector bancario.",
+				"two": "Desarrollo Web, actualización de contenidos."
+			},
+			"technologies": "HTML5, CSS3, Javascript."
+		}
+	],
+	"education": [
+		{
+			"date": "2009-2012",
+			"country": "Argentina",
+			"institute": "Instituto Superior Argentino de Computación",
+			"title": "Analista de Sistemas",
+			"description": {
+				"one": "Legalizado y Certificado en el Ministerio de Relaciones Exteriores para poder trabajar en el Exterior."
+			}
+		},
+		{
+			"date": "2002-2006",
+			"country": "Argentina",
+			"institute": "Nuestra Sra. del Buen y Perpetuo Socorro",
+			"title": "Bachillerato",
+			"description": {
+				"one": "Perito Mercantil"
+			}
 		}
 	]
 }
