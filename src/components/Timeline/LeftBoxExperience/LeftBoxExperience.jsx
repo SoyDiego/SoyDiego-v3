@@ -1,3 +1,4 @@
+import { isMobile } from "react-device-detect";
 import { RevealCore } from "../../Utils/Reveal";
 
 const LeftBoxExperience = ({
@@ -10,7 +11,12 @@ const LeftBoxExperience = ({
 }) => {
 	return (
 		<div className="tw-flex tw-flex-row-reverse md:tw-contents">
-			<RevealCore className="tw-animate-fadeInLeft">
+			<RevealCore
+				className={`${
+					isMobile
+						? "tw-animate-fadeInRight"
+						: "tw-animate-fadeInLeft"
+				}`}>
 				<div className="tw-bg-slate-600 tw-col-start-1 tw-col-end-5 tw-p-4 tw-rounded-xl tw-my-4 tw-mr-auto tw-shadow-md tw-text-center hover:tw-bg-slate-700">
 					<h3 className="tw-font-semibold tw-text-lg tw-mb-1">
 						{position}

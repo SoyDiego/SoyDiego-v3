@@ -1,9 +1,15 @@
 import { RevealCore } from "../../Utils/Reveal";
+import { isMobile } from "react-device-detect";
 
 const LeftBoxEducation = ({ date, country, institute, title, description }) => {
 	return (
 		<div className="tw-flex tw-flex-row-reverse md:tw-contents">
-			<RevealCore className="tw-animate-fadeInLeft">
+			<RevealCore
+				className={`${
+					isMobile
+						? "tw-animate-fadeInRight"
+						: "tw-animate-fadeInLeft"
+				}`}>
 				<div className="tw-bg-pink-600 tw-col-start-1 tw-col-end-5 tw-p-4 tw-rounded-xl tw-my-4 tw-mr-auto tw-shadow-md tw-text-center hover:tw-bg-pink-700">
 					<h3 className="tw-font-semibold tw-text-lg tw-mb-1">
 						{title}
