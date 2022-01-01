@@ -1,15 +1,12 @@
-import Education from "./components/Education";
 import Header from "./components/Header";
+import Timeline from "./components/Timeline";
 
 function App() {
 	return (
 		<>
-			<div className="">
-				<Header />
-			</div>
-			<div className="cat-education">
-				<Education />
-			</div>
+			<Header />
+
+			<Timeline />
 		</>
 	);
 }

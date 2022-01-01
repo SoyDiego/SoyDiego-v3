@@ -1,14 +1,14 @@
-const LeftBox = ({ date, country, position, company, tasks, technologies }) => {
+const LeftBoxExperience = ({ date, country, position, company, tasks, technologies }) => {
 	return (
 		<div className="tw-flex tw-flex-row-reverse md:tw-contents">
-			<div className="tw-bg-slate-600 tw-col-start-1 tw-col-end-5 tw-p-4 tw-rounded-xl tw-my-4 tw-mr-auto tw-shadow-md tw-text-center">
-				<h5 className="tw-leading-tight tw-text-center tw-text-pink-400 tw-font-bold">
-					{date} - {country}
-				</h5>
+			<div className="tw-bg-slate-600 tw-col-start-1 tw-col-end-5 tw-p-4 tw-rounded-xl tw-my-4 tw-mr-auto tw-shadow-md tw-text-center hover:tw-bg-slate-700 tw-animate-fadeInLeft">
 				<h3 className="tw-font-semibold tw-text-lg tw-mb-1">
 					{position}
 				</h3>
-				<h4 className="tw-font-semibold tw-text-lg tw-mb-1">
+				<h5 className="tw-leading-tight tw-text-center tw-text-pink-400 tw-text-xs tw-font-bold">
+					{date} - {country}
+				</h5>
+				<h4 className="tw-font-semibold tw-text-lg tw-my-1">
 					{company}
 				</h4>
 
@@ -35,4 +35,4 @@ const LeftBox = ({ date, country, position, company, tasks, technologies }) => {
 	);
 };
 
-export default LeftBox;
+export default LeftBoxExperience;
