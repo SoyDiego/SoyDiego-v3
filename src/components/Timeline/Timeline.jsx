@@ -1,8 +1,8 @@
-import allContent from "../../content/data.json";
 import LeftBoxEducation from "./LeftBoxEducation";
 import LeftBoxExperience from "./LeftBoxExperience";
 import RightBoxEducation from "./RightBoxEducation";
 import RightBoxExperience from "./RightBoxExperience";
+import allContent from "../../content/Data";
 
 const Timeline = () => {
 	return (

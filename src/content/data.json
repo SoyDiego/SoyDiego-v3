@@ -165,5 +165,30 @@
 			"name": "Illustrator",
 			"icon": "devicon-illustrator-plain colored"
 		}
+	],
+	"references": [
+		{
+			"name": "Lisenn Lerouge",
+			"reference": "Diego es un developer con talento. Cuida los detalles, su trabajo es preciso y no duda en ir más allá cuando el proyecto lo requiera. Busca siempre la manera más eficiente de realizar el proyecto. Aprendí mucho trabajando con Diego.",
+			"avatar": "../../assets/img/lisenn.jpg"
+		},
+		{
+			"name": "Jesús Catalayud Moreno",
+			"position": "Web Developer",
+			"reference": "He tenido la suerte de trabajar con Diego desarrollando y maquetando componentes en React JS para un importante ERP que utilizarán empresas del sector farmacéutico. Es meticuloso, resolutivo, es un gran jugador de equipo, se adapta y aprende muy rápido. Siempre dispuesto a ayudar, he aprendido mucho trabajando con Diego, tanto a nivel profesional como personal. ¡Gran developer y gran persona!",
+			"avatar": "../../assets/img/jesus.jpg"
+		},
+		{
+			"name": "Ingrid Caro",
+			"position": "Digital Project Manager",
+			"reference": "Tuve el placer de trabajar con Diego durante varios meses en CDM Barcelona. Siendo su Digital Project Manager, puedo destacar que Diego es un programador comprometido y resolutivo a la hora de resolver cualquier imprevisto. No dudaría en volver a trabajar con él por su dedicación y compromiso.",
+			"avatar": "../../assets/img/ingrid.jpg"
+		},
+		{
+			"name": "Diego Garriz",
+			"position": "Analista de Sistemas",
+			"reference": "Diego ha demostrado su idoneidad, proactividad y compromiso en la resolución de las tareas técnicas que hemos compartido e interactuado. Siempre intentando progresar y si de algo desconoce, lo aprenderá.",
+			"avatar": "../../assets/img/jesus.jpg"
+		}
 	]
 }

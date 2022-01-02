@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Timeline from "./components/Timeline";
 import Languages from "./components/Languages";
 import Skills from "./components/Skills";
+import References from "./components/References";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Timeline />
 			<Languages />
 			<Skills />
+			<References />
 		</>
 	);
 }

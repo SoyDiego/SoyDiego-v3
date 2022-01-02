@@ -1,4 +1,4 @@
-import allContent from "../../content/data.json";
+import allContent from "../../content/Data";
 import SocialNetworks from "./SocialNetworks";
 import LocationPhoneAndDownload from "./LocationPhoneAndDownload";
 import NameAndProfession from "./NameAndProfession";
