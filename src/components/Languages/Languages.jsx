@@ -18,7 +18,7 @@ const Languages = () => {
 	});
 
 	return (
-		<div className="tw-h-screen tw-grid tw-place-content-center tw-bg-slate-900">
+		<div className="tw-py-20 tw-grid tw-place-content-center tw-bg-slate-900">
 			<Reveal
 				className="tw-flex tw-flex-col tw-items-center md:tw-flex-row tw-justify-evenly"
 				effect={[

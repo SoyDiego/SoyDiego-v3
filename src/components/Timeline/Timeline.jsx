@@ -6,7 +6,7 @@ import RightBoxExperience from "./RightBoxExperience";
 
 const Timeline = () => {
 	return (
-		<div className="tw-w-full tw-bg-slate-900">
+		<div className="tw-w-full tw-bg-slate-900 tw-py-20">
 			<div className="tw-text-center tw-py-8">
 				<h2 className="tw-text-xl tw-text-white tw-font-extrabold md:tw-text-3xl">
 					El camino realizado...

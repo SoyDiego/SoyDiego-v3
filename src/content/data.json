@@ -129,6 +129,10 @@
 			"icon": "devicon-react-original-wordmark colored"
 		},
 		{
+			"name": "Redux",
+			"icon": "devicon-redux-original colored"
+		},
+		{
 			"name": "Bootstrap",
 			"icon": "devicon-bootstrap-plain-wordmark colored"
 		},
