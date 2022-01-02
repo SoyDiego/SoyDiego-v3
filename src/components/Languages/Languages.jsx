@@ -27,7 +27,6 @@ const Languages = () => {
 				]}>
 				{allContent.languages.map(({ language }, index) => (
 					<>
-						{console.log(index)}
 						<div
 							className={`"tw-w-60 tw-h-60 ${
 								index === 0 && "md:tw-mr-48"

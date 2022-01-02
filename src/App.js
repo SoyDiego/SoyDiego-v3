@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Timeline from "./components/Timeline";
 import Languages from "./components/Languages";
+import Skills from "./components/Skills";
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<Header />
 			<Timeline />
 			<Languages />
+			<Skills />
 		</>
 	);
 }
