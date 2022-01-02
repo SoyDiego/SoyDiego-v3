@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { circliful } from "js-plugin-circliful";
 import "js-plugin-circliful/dist/main.css";
 import Reveal from "../Utils/Reveal";
-import allContent from "../../content/Data";
+import allContent from "../../content/data.json";
 
 const Languages = () => {
 	useEffect(() => {
