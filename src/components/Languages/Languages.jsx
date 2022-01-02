@@ -2,22 +2,19 @@ import { useEffect } from "react";
 import { circliful } from "js-plugin-circliful";
 import "js-plugin-circliful/dist/main.css";
 import Reveal from "../Utils/Reveal";
+import allContent from "../../content/data.json";
 
 const Languages = () => {
 	useEffect(() => {
-		circliful.newCircle({
-			percent: 100,
-			id: "spanish",
-			type: "simple",
-			text: "ESPAÑOL",
-		});
-
-		circliful.newCircle({
-			percent: 70,
-			id: "english",
-			type: "simple",
-			text: "INGLÉS",
-		});
+		allContent.languages.map(({ language, percentage }) =>
+			circliful.newCircle({
+				percent: percentage,
+				id: language,
+				type: "simple",
+				text: language.toUpperCase(),
+				animateInView: true,
+			})
+		);
 	});
 
 	return (
@@ -28,9 +25,16 @@ const Languages = () => {
 					"tw-animate-fadeInLeftBig",
 					"tw-animate-fadeInRightBig",
 				]}>
-				<div className="tw-w-60 tw-h-60 md:tw-mr-48" id="spanish"></div>
-
-				<div className="tw-w-60 tw-h-60" id="english"></div>
+				{allContent.languages.map(({ language }, index) => (
+					<>
+						{console.log(index)}
+						<div
+							className={`"tw-w-60 tw-h-60 ${
+								index === 0 && "md:tw-mr-48"
+							}`}
+							id={language}></div>
+					</>
+				))}
 			</Reveal>
 		</div>
 	);

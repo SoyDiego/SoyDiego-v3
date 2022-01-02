@@ -96,5 +96,15 @@
 				"one": "Perito Mercantil"
 			}
 		}
+	],
+	"languages": [
+		{
+			"language": "Español",
+			"percentage": 100
+		},
+		{
+			"language": "Inglés",
+			"percentage": 70
+		}
 	]
 }

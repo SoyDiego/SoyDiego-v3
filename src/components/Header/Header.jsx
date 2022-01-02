@@ -10,7 +10,7 @@ const Header = () => {
 
 	return (
 		<div
-			className="tw-relative tw-h-screen tw-grid tw-place-content-center tw-bg-cover tw-bg-no-repeat tw-bg-center"
+			className="tw-relative tw-h-screen tw-grid tw-place-content-center tw-bg-cover tw-bg-no-repeat tw-bg-center tw-bg-slate-300"
 			style={{
 				backgroundImage: `url(
 					"http://soydiego.com.ar/img/wall.jpg"
