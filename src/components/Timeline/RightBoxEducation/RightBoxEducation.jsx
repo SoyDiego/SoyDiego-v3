@@ -18,7 +18,7 @@ const RightBoxEducation = ({
 				</div>
 			</RevealCore>
 			<RevealCore className="tw-animate-fadeInRight">
-				<div className="tw-bg-pink-600 tw-col-start-6 tw-col-end-10 tw-p-4 tw-rounded-xl tw-my-4 tw-mr-auto tw-shadow-md tw-text-center hover:tw-bg-pink-700 tw-animate-fadeInRight">
+				<div className="tw-bg-pink-600 tw-col-start-6 tw-col-end-10 tw-p-4 tw-rounded-xl tw-my-4 tw-mr-auto tw-shadow-md tw-text-center hover:tw-bg-pink-700">
 					<h3 className="tw-font-semibold tw-text-lg tw-mb-1">
 						{title}
 					</h3>

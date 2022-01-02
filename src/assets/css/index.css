@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.circle-container {
+	transform: translateX(16px);
+}
+
+/* Color Languages Line Circle. */
+.foreground-circle {
+	fill: none;
+	stroke: #e91e63;
+	stroke-width: 3px !important;
+}
+
+.background-circle {
+	fill: none;
+	stroke: #999999;
+	stroke-width: 8px;
+}
+
+.circle-text {
+	font-size: 1rem;
+	line-height: 1.25rem;
+	fill: white;
+}
+
+.circle-info-text {
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+	fill: #e91e63;
+}

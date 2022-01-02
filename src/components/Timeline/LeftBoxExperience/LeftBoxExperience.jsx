@@ -33,7 +33,7 @@ const LeftBoxExperience = ({
 							<li>{task}</li>
 						))}
 						<li>
-							<span className="tw-font-bold tw-underline tw-decoration-wavy">
+							<span className="tw-font-bold">
 								Tecnologías:
 								<br />
 							</span>
