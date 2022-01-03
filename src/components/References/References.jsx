@@ -5,12 +5,12 @@ import allContent from "../../content/Data";
 const References = () => {
 	const flickityOptions = {
 		initialIndex: 2,
-		freeScroll: true,
+		freeScroll: false,
 		wrapAround: true,
-		autoPlay: true,
+		autoPlay: 2000,
 	};
 	return (
-		<div className="tw-overflow-hidden tw-py-20">
+		<div className="tw-overflow-hidden tw-py-2">
 			<Flickity
 				className={"carousel"} // default ''
 				elementType={"div"} // default 'div'
@@ -20,7 +20,7 @@ const References = () => {
 				static={false} // default false
 			>
 				{allContent.references.map((ref) => (
-					<div className="tw-max-w-md tw-py-4 tw-px-8 tw-bg-white tw-shadow-lg tw-rounded-lg md:tw-m-20 md:tw-mb-0">
+					<div className="tw-max-w-md tw-py-4 tw-px-8 tw-bg-white tw-shadow-lg tw-rounded-lg tw-mx-2 md:tw-m-20 md:tw-mb-0">
 						<div className="tw-flex tw-justify-center md:tw-justify-end md:tw--mt-16">
 							<img
 								className="tw-w-20 tw-h-20 tw-object-cover tw-rounded-full tw-border-2 tw-border-pink-500"

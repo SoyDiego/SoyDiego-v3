@@ -204,6 +204,57 @@ const allContent = {
 			avatar: photoGarriz,
 		},
 	],
+	portfolio: [
+		{
+			title: "Sistema de Estadísticas Socorristas",
+			technologies: ["HTML5", "CSS3", "BOOTSTRAP", "REACTJS", "FIREBASE"],
+			description:
+				"Generación de gráficos e información estadística en tiempo real. ",
+			picture: "",
+		},
+		{
+			title: "IndioQuimica S.A",
+			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
+			description:
+				"Diseño web, administración de contenido, mantenimiento y Seguridad. Edición de imagenes de la empresa. Google Analytics. Corrección de fallas de seguridad.",
+			picture: "",
+		},
+		{
+			title: "Trabajo Socorrista España",
+			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
+			description:
+				"Diseño Web, administración de contenido, actualizaciones y mantenimiento. Redacción de artículos para personas que viajan por primera vez a España como socorristas.",
+			picture: "",
+		},
+		{
+			title: "DR. Representaciones",
+			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
+			description:
+				"Diseño Web, administración de contenido, actualizaciones y mantenimiento. Corrección de fallas de seguridad en el sitio.",
+			picture: "",
+		},
+		{
+			title: "Magazine SB 2019",
+			technologies: ["QUARKXPRESS", "ILLUSTRATOR", "JAVASCRIPT"],
+			description:
+				"Diseño de Revista Impresa y Digital con el software QuarkXpress. Creación de contenido, edición de fotografías.",
+			picture: "",
+		},
+		{
+			title: "Flyer SAD 2020",
+			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
+			description:
+				"Creación de flyer para el Evento de Salvamento Acuático Deportivo.",
+			picture: "",
+		},
+		{
+			title: "Prevenir",
+			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
+			description:
+				"Diseño y creación de logotipo para el Programa Formativo.",
+			picture: "",
+		},
+	],
 };
 
 export default allContent;

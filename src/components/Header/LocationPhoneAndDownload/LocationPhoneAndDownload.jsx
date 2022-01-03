@@ -25,7 +25,7 @@ const LocationPhoneAndDownload = ({ location, mobile, urlCV }) => {
 
 			<div className="download-CV tw-animate-fadeInUp tw-mx-auto">
 				<a href={urlCV} target="_blank" rel="noopener noreferrer">
-					<button className="tw-px-6 tw-py-2 tw-text-sm tw-transition-colors tw-duration-300 tw-rounded tw-shadow-xl tw-text-violet-100 tw-bg-pink-500 hover:tw-bg-pink-600 tw-shadow-pink-500/50 tw-font-bold tw-flex tw-items-center">
+					<button className="tw-px-6 tw-py-2 tw-text-sm tw-transition-colors tw-duration-300 tw-rounded-full tw-shadow-xl tw-text-violet-100 tw-bg-pink-500 hover:tw-bg-pink-600 tw-shadow-pink-500/50 tw-font-bold tw-flex tw-items-center">
 						<IcDownload width="24" height="24" color="#FFFFFF" />
 						<span className="tw-ml-2">Descargar CV</span>
 					</button>

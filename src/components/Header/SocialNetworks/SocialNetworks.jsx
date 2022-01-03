@@ -11,16 +11,16 @@ const SocialNetworks = ({ social }) => {
 						{name === "Instagram" ? (
 							<IcInstagram
 								color="#FFFFFF"
-								width="40"
-								height="40"
+								width="30"
+								height="30"
 							/>
 						) : name === "GitHub" ? (
-							<IcGitHub color="#FFFFFF" width="40" height="40" />
+							<IcGitHub color="#FFFFFF" width="30" height="30" />
 						) : (
 							<IcLinkedIn
 								color="#FFFFFF"
-								width="40"
-								height="40"
+								width="30"
+								height="30"
 							/>
 						)}
 					</a>
