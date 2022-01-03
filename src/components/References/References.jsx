@@ -1,6 +1,6 @@
 import Flickity from "react-flickity-component";
 import "flickity/css/flickity.css";
-import allContent from "../../content/data.json";
+import allContent from "../../content/Data";
 
 const References = () => {
 	const flickityOptions = {
@@ -20,11 +20,11 @@ const References = () => {
 				static={false} // default false
 			>
 				{allContent.references.map((ref) => (
-					<div className="tw-max-w-md tw-py-4 tw-px-8 tw-bg-white tw-shadow-lg tw-rounded-lg md:tw-m-20">
+					<div className="tw-max-w-md tw-py-4 tw-px-8 tw-bg-white tw-shadow-lg tw-rounded-lg md:tw-m-20 md:tw-mb-0">
 						<div className="tw-flex tw-justify-center md:tw-justify-end md:tw--mt-16">
 							<img
 								className="tw-w-20 tw-h-20 tw-object-cover tw-rounded-full tw-border-2 tw-border-pink-500"
-								src={require("../../assets/img/lisenn.jpg")}
+								src={ref.avatar}
 								alt={ref.name}
 							/>
 						</div>
@@ -33,7 +33,7 @@ const References = () => {
 								{ref.reference}
 							</p>
 						</div>
-						<div className="tw-flex tw-justify-end tw-items-center tw-mt-4 tw-text-md tw-font-medium tw-text-pink-500">
+						<div className="tw-flex tw-justify-end tw-items-center tw-mt-4 tw-text-xs tw-font-medium tw-text-pink-500">
 							{ref.name} -{" "}
 							<span className="tw-ml-2 tw-text-xs">
 								{ref.position}

@@ -1,5 +1,5 @@
 import "devicon/devicon.min.css";
-import allContent from "../../content/data.json";
+import allContent from "../../content/Data";
 
 const Skills = () => {
 	return (

@@ -1,7 +1,7 @@
 import SocialNetworks from "./SocialNetworks";
 import LocationPhoneAndDownload from "./LocationPhoneAndDownload";
 import NameAndProfession from "./NameAndProfession";
-import allContent from "../../content/data.json";
+import allContent from "../../content/Data";
 
 const Header = () => {
 	const { name, surname, profession, location, mobile, urlCV, social } =
