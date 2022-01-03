@@ -5,12 +5,13 @@ import photoIngrid from "../assets/img/references/ingrid.jpg";
 import photoGarriz from "../assets/img/references/garriz.jpg";
 
 // Import portfolio images
-import pictureDR from "../assets/img/portfolio/dr.webp";
-import pictureIndio from "../assets/img/portfolio/indio.webp";
+import pictureDR from "../assets/img/portfolio/dr.png";
+import pictureIndio from "../assets/img/portfolio/indio.png";
 import pictureMagazineSB from "../assets/img/portfolio/revistaSB.webp";
-import pictureTSE from "../assets/img/portfolio/tse.webp";
+import pictureTSE from "../assets/img/portfolio/tse.png";
 import picturePrevenir from "../assets/img/portfolio/logo-prevenir.webp";
 import pictureFlyerSAD from "../assets/img/portfolio/flyerSAD.webp";
+import pictureEstadistics from "../assets/img/portfolio/estadisticas.png";
 
 const allContent = {
 	name: "Diego J.",
@@ -219,7 +220,7 @@ const allContent = {
 			technologies: ["HTML5", "CSS3", "BOOTSTRAP", "REACTJS", "FIREBASE"],
 			description:
 				"Generación de gráficos e información estadística en tiempo real. ",
-			picture: pictureDR,
+			picture: pictureEstadistics,
 		},
 		{
 			title: "IndioQuimica S.A",

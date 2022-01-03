@@ -6,7 +6,7 @@ const Portfolio = () => {
 	const flickityOptions = {
 		initialIndex: 2,
 		freeScroll: false,
-		wrapAround: false,
+		wrapAround: true,
 		autoPlay: 2000,
 		fullscreen: true,
 	};
@@ -23,7 +23,7 @@ const Portfolio = () => {
 				{allContent.portfolio.map((data) => (
 					<div className="tw-flex tw-mx-4">
 						<div className="tw-relative tw-flex tw-flex-col md:tw-flex-row md:tw-space-x-5 tw-space-y-3 md:tw-space-y-0 tw-rounded-xl tw-shadow-lg tw-p-3 tw-max-w-xs md:tw-max-w-3xl tw-border tw-border-white tw-bg-white">
-							<div className="tw-w-full md:tw-w-1/3 tw-bg-white tw-flex tw-items-center">
+							<div className="tw-w-full md:tw-w-1/3 tw-bg-white tw-flex tw-items-center bg-picture-portfolio">
 								<img
 									src={data.picture}
 									alt={data.title}

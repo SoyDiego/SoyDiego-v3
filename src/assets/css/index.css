@@ -56,19 +56,23 @@
 
 /* white circles */
 .carousel-portfolio .flickity-page-dots .dot {
-  width: 12px;
-  height: 12px;
-  opacity: 1;
-  background: transparent;
-  border: 2px solid white;
+	width: 12px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: 2px solid white;
 }
 
 /* black circles */
 .carousel-references .flickity-page-dots .dot {
-  border: 2px solid #0F172A;
+	border: 2px solid #0f172a;
 }
 
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: rgb(236 72 153);
+	background: rgb(236 72 153);
+}
+
+.bg-picture-portfolio {
+	background-color: #e8e8e8;
 }
