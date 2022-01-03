@@ -1,4 +1,5 @@
 import React from "react";
+import IcDownload from "../../Icons/IcDownload";
 import IcLocation from "../../Icons/IcLocation";
 import IcMobile from "../../Icons/IcMobile";
 
@@ -22,10 +23,11 @@ const LocationPhoneAndDownload = ({ location, mobile, urlCV }) => {
 				</div>
 			</div>
 
-			<div className="download-CV tw-text-center tw-animate-fadeInUp">
+			<div className="download-CV tw-animate-fadeInUp tw-mx-auto">
 				<a href={urlCV} target="_blank" rel="noopener noreferrer">
-					<button className="tw-px-6 tw-py-2 tw-text-sm tw-transition-colors tw-duration-300 tw-rounded tw-shadow-xl tw-text-violet-100 tw-bg-pink-600 hover:tw-bg-pink-500 tw-shadow-pink-500/50 tw-font-bold">
-						Descargar CV
+					<button className="tw-px-6 tw-py-2 tw-text-sm tw-transition-colors tw-duration-300 tw-rounded tw-shadow-xl tw-text-violet-100 tw-bg-pink-500 hover:tw-bg-pink-600 tw-shadow-pink-500/50 tw-font-bold tw-flex tw-items-center">
+						<IcDownload width="24" height="24" color="#FFFFFF" />
+						<span className="tw-ml-2">Descargar CV</span>
 					</button>
 				</a>
 			</div>

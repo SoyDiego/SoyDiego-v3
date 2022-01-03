@@ -35,7 +35,7 @@ const RightBoxExperience = ({
 							<li>{task}</li>
 						))}
 						<li>
-							<span className="tw-font-bold">
+							<span className="tw-font-bold tw-text-pink-400">
 								Tecnologías:
 								<br />
 							</span>
