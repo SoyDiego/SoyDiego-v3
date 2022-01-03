@@ -1,7 +1,16 @@
-import photoLisenn from "../assets/img/lisenn.jpg";
-import photoJesus from "../assets/img/jesus.jpg";
-import photoIngrid from "../assets/img/ingrid.jpg";
-import photoGarriz from "../assets/img/garriz.jpg";
+// Import references images
+import photoLisenn from "../assets/img/references/lisenn.jpg";
+import photoJesus from "../assets/img/references/jesus.jpg";
+import photoIngrid from "../assets/img/references/ingrid.jpg";
+import photoGarriz from "../assets/img/references/garriz.jpg";
+
+// Import portfolio images
+import pictureDR from "../assets/img/portfolio/dr.webp";
+import pictureIndio from "../assets/img/portfolio/indio.webp";
+import pictureMagazineSB from "../assets/img/portfolio/revistaSB.webp";
+import pictureTSE from "../assets/img/portfolio/tse.webp";
+import picturePrevenir from "../assets/img/portfolio/logo-prevenir.webp";
+import pictureFlyerSAD from "../assets/img/portfolio/flyerSAD.webp";
 
 const allContent = {
 	name: "Diego J.",
@@ -210,49 +219,49 @@ const allContent = {
 			technologies: ["HTML5", "CSS3", "BOOTSTRAP", "REACTJS", "FIREBASE"],
 			description:
 				"Generación de gráficos e información estadística en tiempo real. ",
-			picture: "",
+			picture: pictureDR,
 		},
 		{
 			title: "IndioQuimica S.A",
 			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
 			description:
 				"Diseño web, administración de contenido, mantenimiento y Seguridad. Edición de imagenes de la empresa. Google Analytics. Corrección de fallas de seguridad.",
-			picture: "",
+			picture: pictureIndio,
 		},
 		{
 			title: "Trabajo Socorrista España",
 			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
 			description:
 				"Diseño Web, administración de contenido, actualizaciones y mantenimiento. Redacción de artículos para personas que viajan por primera vez a España como socorristas.",
-			picture: "",
+			picture: pictureTSE,
 		},
 		{
 			title: "DR. Representaciones",
 			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
 			description:
 				"Diseño Web, administración de contenido, actualizaciones y mantenimiento. Corrección de fallas de seguridad en el sitio.",
-			picture: "",
+			picture: pictureDR,
 		},
 		{
 			title: "Magazine SB 2019",
 			technologies: ["QUARKXPRESS", "ILLUSTRATOR", "JAVASCRIPT"],
 			description:
 				"Diseño de Revista Impresa y Digital con el software QuarkXpress. Creación de contenido, edición de fotografías.",
-			picture: "",
+			picture: pictureMagazineSB,
 		},
 		{
 			title: "Flyer SAD 2020",
 			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
 			description:
 				"Creación de flyer para el Evento de Salvamento Acuático Deportivo.",
-			picture: "",
+			picture: pictureFlyerSAD,
 		},
 		{
 			title: "Prevenir",
 			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
 			description:
 				"Diseño y creación de logotipo para el Programa Formativo.",
-			picture: "",
+			picture: picturePrevenir,
 		},
 	],
 };

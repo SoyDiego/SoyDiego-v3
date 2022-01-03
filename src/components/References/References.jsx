@@ -10,9 +10,9 @@ const References = () => {
 		autoPlay: 2000,
 	};
 	return (
-		<div className="tw-overflow-hidden tw-py-2">
+		<div className="tw-overflow-hidden tw-py-20">
 			<Flickity
-				className={"carousel"} // default ''
+				className={"carousel-references"} // default ''
 				elementType={"div"} // default 'div'
 				options={flickityOptions} // takes flickity options {}
 				disableImagesLoaded={false} // default false
