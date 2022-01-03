@@ -30,3 +30,26 @@
 	line-height: 1.25rem;
 	fill: rgb(219 39 119);
 }
+
+/* smaller, dark, rounded square */
+.flickity-button {
+	background: rgb(236 72 153);
+}
+.flickity-button:hover {
+	background: rgb(219 39 119);
+}
+
+.flickity-button:focus {
+	outline: none;
+	box-shadow: 0 0 0 1px rgb(236 72 153);
+}
+
+.flickity-prev-next-button {
+	width: 15px;
+	height: 15px;
+	border-radius: 5px;
+}
+/* icon color */
+.flickity-button-icon {
+	fill: white;
+}
