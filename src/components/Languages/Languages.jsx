@@ -2,9 +2,8 @@ import { useEffect } from "react";
 import { circliful } from "js-plugin-circliful";
 import "js-plugin-circliful/dist/main.css";
 import Reveal from "../Utils/Reveal";
-import allContent from "../../content/Data";
 
-const Languages = () => {
+const Languages = ({ allContent }) => {
 	useEffect(() => {
 		allContent.languages.map(({ language, percentage }) =>
 			circliful.newCircle({
@@ -15,7 +14,7 @@ const Languages = () => {
 				animateInView: true,
 			})
 		);
-	});
+	}, [allContent]);
 
 	return (
 		<div className="tw-py-20 tw-grid tw-place-content-center tw-bg-slate-900">

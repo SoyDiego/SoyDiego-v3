@@ -1,7 +1,6 @@
 import "devicon/devicon.min.css";
-import allContent from "../../content/Data";
 
-const Skills = () => {
+const Skills = ({ allContent }) => {
 	return (
 		<div className="tw-py-20 tw-bg-slate-900">
 			<div className="tw-flex tw-justify-evenly md:tw-justify-between tw-flex-wrap tw-px-5 md:tw-px-10">

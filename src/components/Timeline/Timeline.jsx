@@ -2,14 +2,13 @@ import LeftBoxEducation from "./LeftBoxEducation";
 import LeftBoxExperience from "./LeftBoxExperience";
 import RightBoxEducation from "./RightBoxEducation";
 import RightBoxExperience from "./RightBoxExperience";
-import allContent from "../../content/Data";
 
-const Timeline = () => {
+const Timeline = ({ allContent }) => {
 	return (
 		<div className="tw-w-full tw-bg-slate-900 tw-py-20">
 			<div className="tw-text-center tw-py-8">
 				<h2 className="tw-text-xl tw-text-white tw-font-extrabold md:tw-text-3xl">
-					El camino realizado...
+					{allContent.header.titleTimeline}
 				</h2>
 			</div>
 			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8 tw-pb-0 tw-text-blue-50 tw-overflow-hidden">

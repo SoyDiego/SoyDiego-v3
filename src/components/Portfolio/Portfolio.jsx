@@ -1,8 +1,7 @@
 import Flickity from "react-flickity-component";
 import "flickity/css/flickity.css";
-import allContent from "../../content/Data";
 
-const Portfolio = () => {
+const Portfolio = ({ allContent }) => {
 	const flickityOptions = {
 		initialIndex: 2,
 		freeScroll: false,
