@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
+
 .circle-container {
 	transform: translateX(16px);
 }
@@ -73,6 +77,52 @@
 	background: rgb(236 72 153);
 }
 
-.bg-picture-portfolio {
-	background-color: #e8e8e8;
+.bg-contact-gradient {
+	background: rgb(15, 23, 42);
+	background: -moz-linear-gradient(
+		337deg,
+		rgba(15, 23, 42, 1) 0%,
+		rgba(15, 23, 42, 1) 5%,
+		rgba(15, 23, 42, 0.7973389184775472) 20%,
+		rgba(255, 255, 255, 0.9) 30%
+	);
+	background: -webkit-linear-gradient(
+		337deg,
+		rgba(15, 23, 42, 1) 0%,
+		rgba(15, 23, 42, 1) 5%,
+		rgba(15, 23, 42, 0.7973389184775472) 20%,
+		rgba(255, 255, 255, 0.9) 30%
+	);
+	background: linear-gradient(
+		337deg,
+		rgba(15, 23, 42, 1) 0%,
+		rgba(15, 23, 42, 1) 5%,
+		rgba(15, 23, 42, 0.7973389184775472) 20%,
+		rgba(255, 255, 255, 0.9) 30%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f172a",endColorstr="#ffffff",GradientType=1);
+}
+
+.animate-Up-And-Down {
+	transform: rotate(-45deg);
+	-webkit-animation: action 1s infinite alternate;
+	animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(5px);
+	}
+}
+
+@keyframes action {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(5px);
+	}
 }

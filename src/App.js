@@ -4,6 +4,7 @@ import Languages from "./components/Languages";
 import Skills from "./components/Skills";
 import References from "./components/References";
 import Portfolio from "./components/Portfolio";
+import ContactMe from "./components/ContactMe";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Skills />
 			<References />
 			<Portfolio />
+			<ContactMe />
 		</>
 	);
 }
