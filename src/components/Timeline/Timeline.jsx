@@ -13,7 +13,7 @@ const Timeline = ({ allContent }) => {
 			</div>
 			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8 tw-pb-0 tw-text-blue-50 tw-overflow-hidden">
 				{allContent &&
-					allContent.experience.map(
+					allContent.experience.exp.map(
 						(
 							{
 								date,
@@ -33,6 +33,9 @@ const Timeline = ({ allContent }) => {
 									position={position}
 									company={company}
 									tasks={tasks}
+									titleTechnologies={
+										allContent.experience.titleTechnologies
+									}
 									technologies={technologies}
 								/>
 							) : (
@@ -42,6 +45,9 @@ const Timeline = ({ allContent }) => {
 									position={position}
 									company={company}
 									tasks={tasks}
+									titleTechnologies={
+										allContent.experience.titleTechnologies
+									}
 									technologies={technologies}
 								/>
 							)

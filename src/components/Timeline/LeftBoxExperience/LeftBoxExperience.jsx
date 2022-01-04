@@ -7,6 +7,7 @@ const LeftBoxExperience = ({
 	position,
 	company,
 	tasks,
+	titleTechnologies,
 	technologies,
 }) => {
 	return (
@@ -34,7 +35,7 @@ const LeftBoxExperience = ({
 						))}
 						<li>
 							<span className="tw-font-bold tw-text-pink-400">
-								Tecnologías:
+								{titleTechnologies}
 								<br />
 							</span>
 							{technologies}

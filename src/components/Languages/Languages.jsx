@@ -14,7 +14,7 @@ const Languages = ({ allContent }) => {
 				animateInView: true,
 			})
 		);
-	}, [allContent]);
+	});
 
 	return (
 		<div className="tw-py-20 tw-grid tw-place-content-center tw-bg-slate-900">
@@ -25,13 +25,11 @@ const Languages = ({ allContent }) => {
 					"tw-animate-fadeInRightBig",
 				]}>
 				{allContent.languages.map(({ language }, index) => (
-					<>
-						<div
-							className={`"tw-w-60 tw-h-60 ${
-								index === 0 && "md:tw-mr-48"
-							}`}
-							id={language}></div>
-					</>
+					<div
+						className={`"tw-w-60 tw-h-60 ${
+							index === 0 && "md:tw-mr-48"
+						}`}
+						id={language}></div>
 				))}
 			</Reveal>
 		</div>

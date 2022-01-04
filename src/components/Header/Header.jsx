@@ -35,7 +35,7 @@ const Header = ({ allContent, setAllContent, allContentEN, allContentES }) => {
 			<div className="tw-relative sm:tw-h-full md:tw-h-screen tw-grid tw-place-content-center tw-z-10">
 				<div
 					onClick={changeLanguage}
-					className="tw-p-1 tw-w-32 tw-bg-pink-500 tw-text-white tw-text-xs tw-font-bold tw-z-10 tw-rounded tw-cursor-pointer tw-mx-auto tw-mb-5">
+					className="tw-p-1 tw-bg-pink-500 tw-text-white tw-text-xs tw-font-bold tw-z-10 tw-rounded tw-cursor-pointer tw-mx-auto tw-mb-5">
 					{allContent.header.language}
 				</div>
 

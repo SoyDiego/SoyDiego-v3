@@ -6,6 +6,7 @@ const RightBoxExperience = ({
 	position,
 	company,
 	tasks,
+	titleTechnologies,
 	technologies,
 }) => {
 	return (
@@ -36,7 +37,7 @@ const RightBoxExperience = ({
 						))}
 						<li>
 							<span className="tw-font-bold tw-text-pink-400">
-								Tecnologías:
+								{titleTechnologies}
 								<br />
 							</span>
 							{technologies}

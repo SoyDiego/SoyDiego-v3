@@ -44,67 +44,70 @@ const allContentES = {
 		titleTimeline: "El camino realizado...",
 		language: "Change to English",
 	},
-	experience: [
-		{
-			date: "Abril '20 - Noviembre '21",
-			country: "España",
-			company: "Turijobs",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Desarrollo Web, actualización de contenidos.",
-				two: "Optimización, SEO.",
+	experience: {
+		titleTechnologies: "Tecnologías:",
+		exp: [
+			{
+				date: "Abril '20 - Noviembre '21",
+				country: "España",
+				company: "Turijobs",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Desarrollo Web, actualización de contenidos.",
+					two: "Optimización, SEO.",
+				},
+				technologies:
+					"HTML5, CSS3, Sass, Javascript, JQuery, Bootstrap, SQL.",
 			},
-			technologies:
-				"HTML5, CSS3, Sass, Javascript, JQuery, Bootstrap, SQL.",
-		},
-		{
-			date: "Septiembre '20 - Abril '21",
-			country: "España",
-			company: "Labelgroup Networks",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Desarrollo de ERP para el sector farmaceutico.",
-				two: "Desarrollo Web.",
+			{
+				date: "Septiembre '20 - Abril '21",
+				country: "España",
+				company: "Labelgroup Networks",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Desarrollo de ERP para el sector farmaceutico.",
+					two: "Desarrollo Web.",
+				},
+				technologies:
+					"HTML5, CSS3, Sass, React JS, Redux, GraphQL, Style Components, Storybook, TailwindCSS, Bootstrap.",
 			},
-			technologies:
-				"HTML5, CSS3, Sass, React JS, Redux, GraphQL, Style Components, Storybook, TailwindCSS, Bootstrap.",
-		},
-		{
-			date: "Julio '19 - Diciembre '19",
-			country: "España",
-			company: "CDM Barcelona",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Maquetación de newsletters responsive.",
-				two: "Maquetación de material comercial para el sector salud y principales proveedores CLM (Closed Loop Marketing).",
-				three: "Desarrollo Web, actualización de contenidos.",
+			{
+				date: "Julio '19 - Diciembre '19",
+				country: "España",
+				company: "CDM Barcelona",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Maquetación de newsletters responsive.",
+					two: "Maquetación de material comercial para el sector salud y principales proveedores CLM (Closed Loop Marketing).",
+					three: "Desarrollo Web, actualización de contenidos.",
+				},
+				technologies:
+					"HTML5, CSS3, Javascript, MJML Framework, Wordpress, Bootstrap.",
 			},
-			technologies:
-				"HTML5, CSS3, Javascript, MJML Framework, Wordpress, Bootstrap.",
-		},
-		{
-			date: "Mayo '19 - Julio '19",
-			country: "España",
-			company: "USACD",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Maquetación de newsletters responsive.",
-				two: "Desarrollo Web, actualización de contenidos.",
+			{
+				date: "Mayo '19 - Julio '19",
+				country: "España",
+				company: "USACD",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Maquetación de newsletters responsive.",
+					two: "Desarrollo Web, actualización de contenidos.",
+				},
+				technologies: "HTML5, CSS3, Javascript, MJML Framework.",
 			},
-			technologies: "HTML5, CSS3, Javascript, MJML Framework.",
-		},
-		{
-			date: "Marzo '16 - Diciembre '16",
-			country: "España",
-			company: "Everis",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Se implementaban servicios y se creaba la interfaz gráfica para el sector bancario.",
-				two: "Desarrollo Web, actualización de contenidos.",
+			{
+				date: "Marzo '16 - Diciembre '16",
+				country: "España",
+				company: "Everis",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Se implementaban servicios y se creaba la interfaz gráfica para el sector bancario.",
+					two: "Desarrollo Web, actualización de contenidos.",
+				},
+				technologies: "HTML5, CSS3, Javascript.",
 			},
-			technologies: "HTML5, CSS3, Javascript.",
-		},
-	],
+		],
+	},
 	education: [
 		{
 			date: "2009-2012",
@@ -309,67 +312,70 @@ const allContentEN = {
 		titleTimeline: "My way...",
 		language: "Cambiar a Español",
 	},
-	experience: [
-		{
-			date: "April '20 - November '21",
-			country: "Spain",
-			company: "Turijobs",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Web development and content updates.",
-				two: "Optimization, SEO.",
+	experience: {
+		titleTechnologies: "Technologies:",
+		exp: [
+			{
+				date: "April '20 - November '21",
+				country: "Spain",
+				company: "Turijobs",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Web development and content updates.",
+					two: "Optimization, SEO.",
+				},
+				technologies:
+					"HTML5, CSS3, Sass, Javascript, JQuery, Bootstrap, SQL.",
 			},
-			technologies:
-				"HTML5, CSS3, Sass, Javascript, JQuery, Bootstrap, SQL.",
-		},
-		{
-			date: "September '20 - April '21",
-			country: "Spain",
-			company: "Labelgroup Networks",
-			position: "Front-end Developer",
-			tasks: {
-				one: "ERP Development for the pharmaceutical sector.",
-				two: "Web Development.",
+			{
+				date: "September '20 - April '21",
+				country: "Spain",
+				company: "Labelgroup Networks",
+				position: "Front-end Developer",
+				tasks: {
+					one: "ERP Development for the pharmaceutical sector.",
+					two: "Web Development.",
+				},
+				technologies:
+					"HTML5, CSS3, Sass, React JS, Redux, GraphQL, Style Components, Storybook, TailwindCSS, Bootstrap.",
 			},
-			technologies:
-				"HTML5, CSS3, Sass, React JS, Redux, GraphQL, Style Components, Storybook, TailwindCSS, Bootstrap.",
-		},
-		{
-			date: "July '19 - Dicember '19",
-			country: "Spain",
-			company: "CDM Barcelona",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Design and layout responsive newsletters.",
-				two: "Layout of commercial material for the health sector for the main CLM (Closed Loop Marketing) providers.",
-				three: "Web development and content updates.",
+			{
+				date: "July '19 - Dicember '19",
+				country: "Spain",
+				company: "CDM Barcelona",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Design and layout responsive newsletters.",
+					two: "Layout of commercial material for the health sector for the main CLM (Closed Loop Marketing) providers.",
+					three: "Web development and content updates.",
+				},
+				technologies:
+					"HTML5, CSS3, Javascript, MJML Framework, Wordpress, Bootstrap.",
 			},
-			technologies:
-				"HTML5, CSS3, Javascript, MJML Framework, Wordpress, Bootstrap.",
-		},
-		{
-			date: "May '19 - July '19",
-			country: "Spain",
-			company: "USACD",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Design and layout responsive newsletters.",
-				two: "Web development and content updates.",
+			{
+				date: "May '19 - July '19",
+				country: "Spain",
+				company: "USACD",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Design and layout responsive newsletters.",
+					two: "Web development and content updates.",
+				},
+				technologies: "HTML5, CSS3, Javascript, MJML Framework.",
 			},
-			technologies: "HTML5, CSS3, Javascript, MJML Framework.",
-		},
-		{
-			date: "March '16 - Dicember '16",
-			country: "Spain",
-			company: "Everis",
-			position: "Front-end Developer",
-			tasks: {
-				one: "Services were implemented and the graphical interface for the banking sector was created.",
-				two: "Web development and content updates.",
+			{
+				date: "March '16 - Dicember '16",
+				country: "Spain",
+				company: "Everis",
+				position: "Front-end Developer",
+				tasks: {
+					one: "Services were implemented and the graphical interface for the banking sector was created.",
+					two: "Web development and content updates.",
+				},
+				technologies: "HTML5, CSS3, Javascript.",
 			},
-			technologies: "HTML5, CSS3, Javascript.",
-		},
-	],
+		],
+	},
 	education: [
 		{
 			date: "2009-2012",
@@ -491,52 +497,52 @@ const allContentEN = {
 	],
 	portfolio: [
 		{
-			title: "Sistema de Estadísticas Socorristas",
+			title: "Lifeguard Statistics System",
 			technologies: ["HTML5", "CSS3", "BOOTSTRAP", "REACTJS", "FIREBASE"],
 			description:
-				"Generación de gráficos e información estadística en tiempo real. ",
+				"Graphs generator and statistical information in real time.",
 			picture: pictureEstadistics,
 		},
 		{
 			title: "IndioQuimica S.A",
 			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
 			description:
-				"Diseño web, administración de contenido, mantenimiento y Seguridad. Edición de imagenes de la empresa. Google Analytics. Corrección de fallas de seguridad.",
+				"Web development, content management, maintenance and security. Editing of company images. Google Analytics. Security bugs fixed.",
 			picture: pictureIndio,
 		},
 		{
 			title: "Trabajo Socorrista España",
 			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
 			description:
-				"Diseño Web, administración de contenido, actualizaciones y mantenimiento. Redacción de artículos para personas que viajan por primera vez a España como socorristas.",
+				"Web development, content management, updates and maintenance. Writing articles for people traveling to Spain for the first time as lifeguards.",
 			picture: pictureTSE,
 		},
 		{
 			title: "DR. Representaciones",
 			technologies: ["WORDPRESS", "HTML5", "CSS3", "JAVASCRIPT"],
 			description:
-				"Diseño Web, administración de contenido, actualizaciones y mantenimiento. Corrección de fallas de seguridad en el sitio.",
+				"Web development, content management, updates and maintenance. Security bugs fixed.",
 			picture: pictureDR,
 		},
 		{
 			title: "Magazine SB 2019",
 			technologies: ["QUARKXPRESS", "ILLUSTRATOR", "JAVASCRIPT"],
 			description:
-				"Diseño de Revista Impresa y Digital con el software QuarkXpress. Creación de contenido, edición de fotografías.",
+				"Design of Printed and Digital Magazine. Content creation, photo editing.",
 			picture: pictureMagazineSB,
 		},
 		{
 			title: "Flyer SAD 2020",
 			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
 			description:
-				"Creación de flyer para el Evento de Salvamento Acuático Deportivo.",
+				"Flyer designed for the Sport Aquatic Rescue Event.",
 			picture: pictureFlyerSAD,
 		},
 		{
 			title: "Prevenir",
 			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
 			description:
-				"Diseño y creación de logotipo para el Programa Formativo.",
+				"Logo design.",
 			picture: picturePrevenir,
 		},
 	],
