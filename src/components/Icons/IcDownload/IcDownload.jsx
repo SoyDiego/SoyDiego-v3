@@ -1,6 +1,7 @@
 const IcDownload = ({ color, width, height }) => {
 	return (
 		<svg
+			className="animate-Down-And-Up"
 			width={width}
 			height={height}
 			viewBox="0 0 24 24"

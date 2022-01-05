@@ -4,36 +4,7 @@
 
 html {
 	scroll-behavior: smooth;
-}
-
-.circle-container {
-	transform: translateX(16px);
-}
-
-/* Color Languages Line Circle. */
-.foreground-circle {
-	fill: none;
-	stroke: rgb(219 39 119);
-	stroke-width: 3px !important;
-}
-
-.background-circle {
-	fill: none;
-	stroke: rgb(203 213 225);
-	stroke-width: 8px;
-}
-
-.circle-text {
-	font-size: 1rem;
-	line-height: 1.25rem;
-	fill: white;
-}
-
-.circle-info-text {
-	font-size: 0.5rem;
-	font-weight: bold;
-	line-height: 1.25rem;
-	fill: rgb(219 39 119);
+	overflow-x: hidden;
 }
 
 /* smaller, dark, rounded square */
@@ -106,11 +77,11 @@ html {
 
 .animate-Up-And-Down {
 	transform: rotate(-45deg);
-	-webkit-animation: action 1s infinite alternate;
-	animation: action 1s infinite alternate;
+	-webkit-animation: upAndDown 1s infinite alternate;
+	animation: upAndDown 1s infinite alternate;
 }
 
-@-webkit-keyframes action {
+@-webkit-keyframes upAndDown {
 	0% {
 		transform: translateY(0);
 	}
@@ -119,7 +90,7 @@ html {
 	}
 }
 
-@keyframes action {
+@keyframes upAndDown {
 	0% {
 		transform: translateY(0);
 	}
@@ -128,13 +99,26 @@ html {
 	}
 }
 
-.CircularProgressbar .CircularProgressbar-text {
-	fill: white;
-	font-size: 10px;
-	text-anchor: middle;
+.animate-Down-And-Up{
+	transform: rotate(-45deg);
+	-webkit-animation: downAndUp 1s infinite alternate;
+	animation: downAndUp 1s infinite alternate;
 }
 
-.CircularProgressbar .CircularProgressbar-path {
-	stroke: rgb(219 39 119);
-	stroke-width: 4px;
+@-webkit-keyframes downAndUp {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-5px);
+	}
+}
+
+@keyframes downAndUp {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-5px);
+	}
 }
