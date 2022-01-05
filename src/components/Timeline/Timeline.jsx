@@ -7,13 +7,13 @@ const Timeline = ({ allContent }) => {
 	return (
 		<div className="tw-w-full tw-bg-slate-900 tw-py-20">
 			<div className="tw-text-center tw-py-8">
-				<h2 className="tw-text-xl tw-text-white tw-font-extrabold md:tw-text-3xl">
+				<h2 className="title tw-text-xl tw-text-white tw-font-extrabold md:tw-text-3xl">
 					{allContent.header.titleTimeline}
 				</h2>
 			</div>
 			<div className="tw-flex tw-flex-col md:tw-grid tw-grid-cols-9 tw-mx-auto tw-px-8 tw-pb-0 tw-text-blue-50 tw-overflow-hidden">
 				{allContent &&
-					allContent.experience.exp.map(
+					allContent.experience.content.map(
 						(
 							{
 								date,
@@ -28,6 +28,7 @@ const Timeline = ({ allContent }) => {
 							//If is ODD -> Box in Left, else Box in Right
 							index % 2 ? (
 								<LeftBoxExperience
+									key={index + company}
 									date={date}
 									country={country}
 									position={position}
@@ -40,6 +41,7 @@ const Timeline = ({ allContent }) => {
 								/>
 							) : (
 								<RightBoxExperience
+									key={index + company}
 									date={date}
 									country={country}
 									position={position}
@@ -64,6 +66,7 @@ const Timeline = ({ allContent }) => {
 							//If is ODD -> Box in Left, else Box in Right
 							!(index % 2) ? (
 								<LeftBoxEducation
+									key={index + description}
 									date={date}
 									country={country}
 									institute={institute}
@@ -72,6 +75,7 @@ const Timeline = ({ allContent }) => {
 								/>
 							) : (
 								<RightBoxEducation
+									key={index + description}
 									date={date}
 									country={country}
 									institute={institute}

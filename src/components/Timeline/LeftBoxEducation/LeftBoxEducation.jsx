@@ -21,7 +21,7 @@ const LeftBoxEducation = ({ date, country, institute, title, description }) => {
 
 					<ul className="tw-list-disc tw-text-left tw-pl-3">
 						{Object.values(description).map((desc) => (
-							<li>{desc}</li>
+							<li key={desc}>{desc}</li>
 						))}
 					</ul>
 				</div>

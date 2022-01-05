@@ -7,7 +7,7 @@ const NameAndProfession = ({ name, surname, splitProfession }) => {
 			</h1>
 			<h2 className="tw-text-3xl tw-font-extrabold tw-animate-fadeInRight">
 				<span className="tw-text-white">{splitProfession[0]} </span>
-				<span className="tw-bg-pink-500 tw-text-white tw-p-1 hover:tw-decoration-2 hover:tw-underline-offset-8 tw-rounded-lg tw-inline-block hover:tw-skew-y-3 md:tw-p-2">
+				<span className="title md:tw-p-2">
 					{splitProfession[1]}
 				</span>
 			</h2>

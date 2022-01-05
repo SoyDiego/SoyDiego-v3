@@ -31,7 +31,7 @@ const LeftBoxExperience = ({
 
 					<ul className="tw-list-disc tw-text-left tw-pl-3">
 						{Object.values(tasks).map((task) => (
-							<li>{task}</li>
+							<li key={task}>{task}</li>
 						))}
 						<li>
 							<span className="tw-font-bold tw-text-pink-400">

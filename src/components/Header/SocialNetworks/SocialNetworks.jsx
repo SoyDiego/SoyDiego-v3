@@ -6,8 +6,12 @@ const SocialNetworks = ({ social }) => {
 	return (
 		<div className="tw-py-4">
 			<div className="tw-flex tw-justify-around md:tw-justify-between tw-animate-zoomIn">
-				{social.map(({ name, url }) => (
-					<a href={url} target="_blank" rel="noopener noreferrer">
+				{social.map(({ name, url }, index) => (
+					<a
+						key={index + name}
+						href={url}
+						target="_blank"
+						rel="noopener noreferrer">
 						{name === "Instagram" ? (
 							<IcInstagram
 								color="#FFFFFF"

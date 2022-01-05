@@ -11,6 +11,11 @@ const Portfolio = ({ allContent }) => {
 	};
 	return (
 		<div className="tw-overflow-hidden tw-py-20 tw-bg-slate-900">
+			<div className="tw-text-center tw-py-8">
+				<h2 className="title tw-text-xl tw-text-white tw-font-extrabold md:tw-text-3xl tw-mb-5">
+					{allContent.portfolio.titlePortfolio}
+				</h2>
+			</div>
 			<Flickity
 				className={"carousel-portfolio"} // default ''
 				elementType={"div"} // default 'div'
@@ -19,8 +24,8 @@ const Portfolio = ({ allContent }) => {
 				reloadOnUpdate={false} // default false
 				static={false} // default false
 			>
-				{allContent.portfolio.map((data) => (
-					<div className="tw-flex tw-mx-4">
+				{allContent.portfolio.content.map((data, index) => (
+					<div key={index + data.title} className="tw-flex tw-mx-4">
 						<div className="tw-relative tw-flex tw-flex-col md:tw-flex-row md:tw-space-x-5 tw-space-y-3 md:tw-space-y-0 tw-rounded-xl tw-shadow-lg tw-p-3 tw-max-w-xs md:tw-max-w-3xl tw-border tw-border-white tw-bg-white">
 							<div className="tw-w-full md:tw-w-1/3 tw-bg-white tw-flex tw-items-center">
 								<img
@@ -35,7 +40,7 @@ const Portfolio = ({ allContent }) => {
 								</h3>
 								<div className="tw-flex tw-justify-center md:tw-justify-evenly item-center tw-flex-wrap">
 									{data.technologies.map((technology) => (
-										<div className="tw-bg-pink-500 tw-px-3 tw-py-1 tw-rounded-full tw-text-xs tw-font-medium tw-text-white tw-m-1">
+										<div key={technology} className="tw-bg-pink-500 tw-px-3 tw-py-1 tw-rounded-full tw-text-xs tw-font-medium tw-text-white tw-m-1">
 											{technology}
 										</div>
 									))}

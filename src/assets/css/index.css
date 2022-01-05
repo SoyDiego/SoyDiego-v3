@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.title {
+	@apply tw-bg-pink-500 tw-text-white tw-p-1 hover:tw-decoration-2 hover:tw-underline-offset-8 tw-rounded-lg tw-inline-block hover:tw-skew-y-3;
+}
+
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
@@ -99,7 +103,7 @@ html {
 	}
 }
 
-.animate-Down-And-Up{
+.animate-Down-And-Up {
 	transform: rotate(-45deg);
 	-webkit-animation: downAndUp 1s infinite alternate;
 	animation: downAndUp 1s infinite alternate;
