@@ -127,3 +127,14 @@ html {
 		transform: translateY(5px);
 	}
 }
+
+.CircularProgressbar .CircularProgressbar-text {
+	fill: white;
+	font-size: 10px;
+	text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+	stroke: rgb(219 39 119);
+	stroke-width: 4px;
+}

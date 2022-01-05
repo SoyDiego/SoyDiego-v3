@@ -2,6 +2,9 @@
 import cvES from "../assets/files/CV - Diego Franchina [ES].pdf";
 import cvEN from "../assets/files/CV - Diego Franchina [EN].pdf";
 
+//Import Background Header
+import bgHeader from "../assets/img/bg-header.jpg";
+
 // Import references images
 import photoLisenn from "../assets/img/references/lisenn.jpg";
 import photoJesus from "../assets/img/references/jesus.jpg";
@@ -26,6 +29,7 @@ const allContentES = {
 		location: "Barcelona, España",
 		mobile: "(+34) 644 464 398",
 		urlCV: cvES,
+		bgHeader: bgHeader,
 		social: [
 			{
 				name: "Instagram",
@@ -294,6 +298,7 @@ const allContentEN = {
 		location: "Barcelona, Spain",
 		mobile: "(+34) 644 464 398",
 		urlCV: cvEN,
+		bgHeader: bgHeader,
 		social: [
 			{
 				name: "Instagram",
@@ -534,15 +539,13 @@ const allContentEN = {
 		{
 			title: "Flyer SAD 2020",
 			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
-			description:
-				"Flyer designed for the Sport Aquatic Rescue Event.",
+			description: "Flyer designed for the Sport Aquatic Rescue Event.",
 			picture: pictureFlyerSAD,
 		},
 		{
 			title: "Prevenir",
 			technologies: ["PHOTOSHOP", "ILLUSTRATOR"],
-			description:
-				"Logo design.",
+			description: "Logo design.",
 			picture: picturePrevenir,
 		},
 	],
