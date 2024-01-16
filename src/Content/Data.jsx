@@ -52,7 +52,7 @@ const allContentES = {
 		titleTechnologies: "Tecnologías",
 		content: [
 			{
-				date: "Abril '20 - Noviembre '21",
+				date: "Abril '21 - Noviembre '21",
 				country: "España",
 				company: "Turijobs",
 				position: "Front-end Developer",
@@ -339,7 +339,7 @@ const allContentEN = {
 		titleTechnologies: "Technologies",
 		content: [
 			{
-				date: "April '20 - November '21",
+				date: "April '21 - November '21",
 				country: "Spain",
 				company: "Turijobs",
 				position: "Front-end Developer",
